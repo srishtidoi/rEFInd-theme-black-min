@@ -4,9 +4,9 @@ This repository represents my current bootloader theme.
 
 ## Usage
 
-1. Copy the entire folder into your rEFInd directory within your EFI partition. (/boot/EFI/refind)
-2. Copy the black-min-theme.conf to your rEFInd directory within your EFI partition.
-3. Edit your refind.conf file to include the black-min-theme.conf file and comment out any other include <theme.config> lines.
+1. Make a folder named "themes" in your rEFInd directory within your EFI partition (/boot/EFI/refind). 
+2. Copy this entire reposirtory ino the themes folder and name it "black-min".
+3. Edit your refind.conf file to include the black-min-theme.conf file (here, the path would be "themes/black-min/") and comment out any other include <theme.config> lines.
 
 Since rEFInd has no mechanism for a primary title, the title has been baked into the banner (background) file. The .xcf file can be modified and used as
 background with a nametag.
